@@ -1,0 +1,369 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Tests/Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Domain/Domain.csproj",
+        "packagesPath": "/Users/dmguimaraes/.nuget/packages/",
+        "outputPath": "/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/dmguimaraes/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Infra/Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Infra/Infra.csproj",
+        "projectName": "Infra",
+        "projectPath": "/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Infra/Infra.csproj",
+        "packagesPath": "/Users/dmguimaraes/.nuget/packages/",
+        "outputPath": "/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Infra/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/dmguimaraes/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Domain/Domain.csproj": {
+                "projectPath": "/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Service/Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Service/Service.csproj",
+        "projectName": "Service",
+        "projectPath": "/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Service/Service.csproj",
+        "packagesPath": "/Users/dmguimaraes/.nuget/packages/",
+        "outputPath": "/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Service/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/dmguimaraes/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Domain/Domain.csproj": {
+                "projectPath": "/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Domain/Domain.csproj"
+              },
+              "/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Infra/Infra.csproj": {
+                "projectPath": "/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Infra/Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Template-NetCoreApi-DDD/Template-NetCoreApi-DDD.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Template-NetCoreApi-DDD/Template-NetCoreApi-DDD.csproj",
+        "projectName": "Template-NetCoreApi-DDD",
+        "projectPath": "/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Template-NetCoreApi-DDD/Template-NetCoreApi-DDD.csproj",
+        "packagesPath": "/Users/dmguimaraes/.nuget/packages/",
+        "outputPath": "/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Template-NetCoreApi-DDD/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/dmguimaraes/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Domain/Domain.csproj": {
+                "projectPath": "/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Domain/Domain.csproj"
+              },
+              "/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Infra/Infra.csproj": {
+                "projectPath": "/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Infra/Infra.csproj"
+              },
+              "/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Service/Service.csproj": {
+                "projectPath": "/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Service/Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Tests/Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Tests/Tests.csproj",
+        "projectName": "Tests",
+        "projectPath": "/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Tests/Tests.csproj",
+        "packagesPath": "/Users/dmguimaraes/.nuget/packages/",
+        "outputPath": "/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Tests/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/dmguimaraes/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Domain/Domain.csproj": {
+                "projectPath": "/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Domain/Domain.csproj"
+              },
+              "/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Infra/Infra.csproj": {
+                "projectPath": "/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Infra/Infra.csproj"
+              },
+              "/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Service/Service.csproj": {
+                "projectPath": "/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Service/Service.csproj"
+              },
+              "/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Template-NetCoreApi-DDD/Template-NetCoreApi-DDD.csproj": {
+                "projectPath": "/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Template-NetCoreApi-DDD/Template-NetCoreApi-DDD.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.14.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

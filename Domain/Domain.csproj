@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Entities\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Entities\Base\" />
+    <Folder Include="Enum\" />
+    <Folder Include="Abs\" />
+    <Folder Include="ApiEntryModels\" />
+    <Folder Include="ApiResultModels\" />
+  </ItemGroup>
+</Project>

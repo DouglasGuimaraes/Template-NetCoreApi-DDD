@@ -1,0 +1,14 @@
+/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Service/bin/Debug/netcoreapp2.2/Service.deps.json
+/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Service/bin/Debug/netcoreapp2.2/Service.dll
+/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Service/bin/Debug/netcoreapp2.2/Service.pdb
+/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Service/bin/Debug/netcoreapp2.2/Domain.dll
+/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Service/bin/Debug/netcoreapp2.2/Infra.dll
+/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Service/bin/Debug/netcoreapp2.2/Domain.pdb
+/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Service/bin/Debug/netcoreapp2.2/Infra.pdb
+/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Service/obj/Debug/netcoreapp2.2/Service.csprojAssemblyReference.cache
+/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Service/obj/Debug/netcoreapp2.2/Service.csproj.CoreCompileInputs.cache
+/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Service/obj/Debug/netcoreapp2.2/Service.AssemblyInfoInputs.cache
+/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Service/obj/Debug/netcoreapp2.2/Service.AssemblyInfo.cs
+/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Service/obj/Debug/netcoreapp2.2/Service.csproj.CopyComplete
+/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Service/obj/Debug/netcoreapp2.2/Service.dll
+/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Service/obj/Debug/netcoreapp2.2/Service.pdb

@@ -1,0 +1,57 @@
+﻿<Properties StartupConfiguration="{C5009C52-709A-4F4D-88DD-DFF9FE27432B}|Default">
+  <MonoDevelop.Ide.ItemProperties.Testing.Tests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Application.Template-NetCoreApi-DDD PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Template-NetCoreApi-DDD/Startup.cs">
+    <Files>
+      <File FileName="Template-NetCoreApi-DDD/Controllers/TransactionsController.cs" Line="69" Column="73" />
+      <File FileName="Template-NetCoreApi-DDD/Startup.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Template-NetCoreApi-DDD" expanded="True">
+            <Node name="Application" expanded="True">
+              <Node name="Template-NetCoreApi-DDD" expanded="True">
+                <Node name="Controllers" expanded="True" />
+                <Node name="Properties" expanded="True" />
+                <Node name="Security" expanded="True" />
+                <Node name="Startup.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="Service" expanded="True">
+              <Node name="Service" expanded="True">
+                <Node name="Services" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Testing" expanded="True">
+              <Node name="Tests" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Template-NetCoreApi-DDD" expanded="True">
+            <Node name="Testing" expanded="True">
+              <Node name="Tests" expanded="True">
+                <Node name="Tests" expanded="True">
+                  <Node name="TransactionTests" expanded="True">
+                    <Node name="TransferTest" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/dmguimaraes/Projects/Template-NetCoreApi-DDD/Tests/TransactionTests.cs" relfile="Tests/TransactionTests.cs" line="192" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
