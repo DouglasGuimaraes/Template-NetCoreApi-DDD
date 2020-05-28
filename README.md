@@ -16,6 +16,7 @@ Também considero um ponto forte a divisão de responsabilidade em camadas do pr
 **2) EXPLIQUE COM SUAS PALAVRAS O QUE É E COMO FUNCIONA UMA ARQUITETURA BASEADA
 EM MICROSERVICES. EXPLIQUE GANHOS COM ESTE MODELO E DESAFIOS EM SUA
 IMPLEMENTAÇÃO.**
+
 É uma arquitetura que segmenta sua camada de serviços de acordo com cada domínio. 
 Para cada segmento do negócio ou produto você irá construir uma camada de serviço (geralmente APIs RESTful) responsável por manter o respectivo seguimento.
 Essa modularização segrega as funcionalidades e conseguimos manter deploys independentes (forte ganho) além de que conseguimos construir APIs em tecnologias diferentes (se for necessário).
